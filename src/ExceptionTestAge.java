@@ -8,6 +8,6 @@ public class ExceptionTestAge {
     }
 
     public static void main(String[] args){
-        testAge(10);
+        testAge(12);
     }
 }
