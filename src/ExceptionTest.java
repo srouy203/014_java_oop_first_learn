@@ -1,4 +1,5 @@
 public class ExceptionTest {
+<<<<<<< HEAD
     static void checkAge(int age){
         System.out.println(age);
         if(age < 18){
@@ -19,5 +20,17 @@ public class ExceptionTest {
         }
 
         checkAge(17);
+=======
+    public static void main(String[] args){
+        int[] a = {1, 2, 3, 4};
+        try {
+            System.out.println(a[2]);
+        }catch (Exception e){
+            System.out.println("Array have only 4 in length");
+        }finally {
+            System.out.println("Exception have finish");
+        }
+
+>>>>>>> 0661e0c6e0693992deac7c5617fbc48bcd1d25cc
     }
 }
