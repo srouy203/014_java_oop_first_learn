@@ -6,7 +6,7 @@ public class Enum {
     }
 
     static public void main(String[] args){
-        test myVar = test.MONADY;
+        test myVar = test.WEDNESSDAY;
         System.out.println(myVar);
 
         switch (myVar){
@@ -14,7 +14,7 @@ public class Enum {
                 System.out.println("MONDAY");
                 break;
             case TUESDAY:
-                System.out.println("TUEDAY");
+                System.out.println("TUESDAY");
             break;
             case WEDNESSDAY:
                 System.out.println("WEDNESDAY");

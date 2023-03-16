@@ -7,8 +7,8 @@ public class Array {
         book.add("Khmer");
         book.add("Math");
         book.add("History");
-        System.out.println(book);               //Math
-        System.out.println(book.get(1));        //[Khmer, Math, History]
+        System.out.println(book);               //[Khmer, Math, History]
+        System.out.println(book.get(1));        //Math
 
         //modify array list
         book.set(2, "C#");
